@@ -921,10 +921,10 @@ a.btn-center {
 }
 @media (max-width:767px) {
 .navbar-brand {
-	width: 102px;
-	height: 24px;
+	width: 120px;
+	height: 40px;
 	background-image: url(../images/logo-new.png);
-	background-size: auto 24px
+	background-size: auto 40px
 }
 .navbar-default .navbar-toggle {
 	padding: 4px;
