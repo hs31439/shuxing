@@ -1396,7 +1396,7 @@ to {
 	display: block;
 	margin-top: 5px;
 	font-size: 12px;
-	color: #999
+	color: #999; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;
 }
 .case figure:hover a figcaption {
 	background-color: #c96

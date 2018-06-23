@@ -1,6 +1,15 @@
 $("#header").load("head.html");
 $("#footer").load("foot.html");
-
+      var url = window.location.href;
+      url = url.split("/");
+      url = url[url.length-1];
+      setTimeout(function(){
+        $(".navbar-nav li").each(function(){
+          if($(this).find("a").attr("href") === url){
+            $(this).addClass("hover");
+          }
+        })
+      },500)
 //返回顶部
 function gotop() {
   $('html,body').animate({ scrollTop: 0 }, 700);
